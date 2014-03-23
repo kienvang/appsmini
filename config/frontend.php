@@ -72,8 +72,9 @@ return array(
             ),
             'clientScript' => array(
                 'scriptMap' => array(
-                    'jquery.js' => '/themes/assets/javascripts/jquery/jquery.min.js',
-                    'jquery-ui.min.js'=> '/themes/assets/javascripts/jquery-ui-1.10.3/ui/minified/jquery-ui.min.js',
+                    'jquery.js' => '/themes/assets/javascripts/jquery/modernizr-jquery.min.js',
+                    'jquery.ui'=> '/themes/assets/javascripts/jquery-ui-1.10.3/ui/minified/jquery-ui.min.js',
+                    'jquery.ui.widget.min.js' => '/themes/assets/javascripts/jquery-ui-1.10.3/ui/minified/jquery.ui.widget.min.js'
                 )
             ),
             'CURL' =>array(

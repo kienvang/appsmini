@@ -209,6 +209,29 @@ h2.title{
     width: 457px;
 }
 
+.box .box-content .items{
+    display: inline-block;
+    list-style: none outside none;
+    width: 470px;
+}
+
+.box .box-content .items li{
+    float: left;
+    height: 154px;
+    margin-bottom: 19px;
+    overflow: hidden;
+    text-align: center;
+    width: 232px;
+}
+
+.box .box-content .items img{
+
+}
+
+.box .box-content .items .rdo{
+    margin-top: 10px;
+}
+
 .form .btn{
     background: url("../images/btn.png") no-repeat;
     border: none;

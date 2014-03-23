@@ -7,6 +7,10 @@
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/resources/css/font.css" rel="stylesheet">
     <link href="<?php echo Yii::app()->theme->baseUrl; ?>/resources/css/style.css" rel="stylesheet">
+    <link href="<?php echo Yii::app()->baseUrl; ?>/themes/assets/icheck/skins/all.css?v=1.0.2" rel="stylesheet">
+
+    <?php Yii::app()->getClientScript()->registerCoreScript('jquery'); ?>
+    <script src="<?php echo Yii::app()->baseUrl; ?>/themes/assets/icheck/icheck.js?v=1.0.2"></script>
 </head>
 <body>
     <div class="wrapper clearfix">

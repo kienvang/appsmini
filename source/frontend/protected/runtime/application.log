@@ -831,3 +831,27 @@ Stack trace:
 #5 {main}
 REQUEST_URI=/toshiba
 ---
+2014/03/23 05:16:01 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "E:\QuocTung\Profiles\SmallOT\appsmini\config/../www/assets/" không hợp lệ. Hãy chắc rằng thư mục này có tồn tại và được phép ghi bởi Web server.' in E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CAssetManager.php:138
+Stack trace:
+#0 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\base\CComponent.php(152): CAssetManager->setBasePath('E:\QuocTung\Pro...')
+#1 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\YiiBase.php(220): CComponent->__set('basePath', 'E:\QuocTung\Pro...')
+#2 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#3 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(193): CModule->getComponent('assetManager')
+#4 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CClientScript.php(510): CWebApplication->getAssetManager()
+#5 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CClientScript.php(547): CClientScript->getCoreScriptUrl()
+#6 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CClientScript.php(348): CClientScript->getPackageBaseUrl('jquery')
+#7 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CClientScript.php(208): CClientScript->renderCoreScripts()
+#8 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(351): CClientScript->render('<!DOCTYPE html ...')
+#9 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(788): CController->processOutput('<!DOCTYPE html ...')
+#10 E:\QuocTung\Profiles\SmallOT\appsmini\source\frontend\protected\controllers\SiteController.php(23): CController->render('index')
+#11 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 E:\QuocTung\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 E:\QuocTung\Profiles\SmallOT\appsmini\index.php(15): CApplication->run()
+#19 {main}
+REQUEST_URI=/
+---
