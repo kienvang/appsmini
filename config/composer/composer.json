@@ -1,0 +1,16 @@
+{
+    "name": "yii",
+    "description": "Yii Framework",
+    "authors": [
+        {
+            "name": "Team Services",
+            "email": "phuong.pham@teamservices.vn"
+        }
+    ],
+    "require": {
+        "yiisoft/yii": "1.1.*"
+    },
+    "config": {
+        "vendor-dir": "../../source/vendors"
+    }
+}

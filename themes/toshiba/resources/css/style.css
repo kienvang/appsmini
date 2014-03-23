@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial, tahoma;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    border: none;
+}
+
+.wrapper{
+    width: 810px;
+    margin: 0 auto;
+;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.toplinks{
+    background: url('../images/bg_top.png') no-repeat;
+    height: 67px;
+    overflow: hidden;
+    position: absolute;
+    width: 810px;
+    z-index: 10;
+}
+
+.toplinks .logo{
+    width: 157px;
+    height: 44px;
+    background: url('../images/logo.png') no-repeat;
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.toplinks ul{
+    list-style: none;
+    float: right;
+    margin-top: 23px;
+}
+
+.toplinks ul li{
+    float: left;
+    padding: 0 21px;
+}
+
+.toplinks ul li a{
+    color: #000;
+}
+
+.toplinks ul li.active a{
+    color: #23b1e1;
+}
+
+.home{
+    background: url('../images/bg01.png') no-repeat #1496dc;
+    min-height: 1136px;
+    position: absolute;
+    top: 63px;
+    width: 810px;
+}
+
+.main{
+    background: url('../images/bg02.png') no-repeat #1496dc;
+    min-height: 1136px;
+    position: absolute;
+    top: 63px;
+    width: 810px;
+}
+
+.main h2.title{
+    margin-left: 34px;
+    margin-top: 40px;
+}
+
+.main h2.thele{
+    background: url("../images/thele.png") no-repeat;
+    height: 64px;
+    width: 166px;
+}
+
+.main .content{
+    color: #FFFFFF;
+    padding: 30px 43px;
+    position: absolute;
+    text-align: justify;
+    top: 120px;
+}
+
+.thele{
+
+}
+
+.thele .nd{
+    padding-bottom: 20px;
+}
+
+.thele .nd span{
+    font-family: "MuseoForDellVT";
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.thele .nd1 p{
+    font-family: "MuseoForDellVT";
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.thele li.nd1{
+    line-height: 18px;
+}
+
+.thele ul{
+    list-style: none;
+}
+
+.thele li{
+    font-family: "MuseoForDellVT";
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.home .content{
+    min-height: 500px;
+    position: absolute;
+    top: 334px;
+    width: 810px;
+}
+
+.tv{
+    background: url("../images/tv.png") no-repeat;
+    height: 321px;
+    left: 31px;
+    position: absolute;
+    top: 46px;
+    width: 628px;
+}
+
+.nv{
+    background: url("../images/nv.png") no-repeat;
+    height: 424px;
+    left: 566px;
+    position: absolute;
+    top: 10px;
+    width: 291px;
+    z-index: 9999;
+}
+
+h2.title{
+    background: url("../images/title1.png") no-repeat;
+    height: 169px;
+    margin: 31px auto 0;
+    width: 562px;
+}
+
+.form{
+    text-align: center;
+}
+
+.box{
+    background: url("../images/box.png") no-repeat;
+    height: 492px;
+    margin: 33px auto 0;
+    width: 533px;
+    text-align: left;
+}
+
+.box .question{
+    color: #FFFFFF;
+    font-family: "MuseoForDellVT";
+    font-size: 20px;
+    font-weight: 700;
+    height: 38px;
+    padding-left: 18px;
+    padding-top: 19px;
+}
+
+.box h2{
+    color: #1AA4CC;
+    font-size: 16px;
+    margin-top: 14px;
+    padding-left: 42px;
+}
+
+.box .box-content{
+    height: 366px;
+    margin: 14px auto 0;
+    padding-left: 7px;
+    width: 474px;
+}
+
+.box .box-content textarea{
+    border: 1px solid #159CDE;
+    border-radius: 4px;
+    color: #666666;
+    font-size: 13px;
+    height: 285px;
+    padding: 9px;
+    resize: none;
+    width: 457px;
+}
+
+.form .btn{
+    background: url("../images/btn.png") no-repeat;
+    border: none;
+    height: 35px;
+    margin-top: 10px;
+    width: 91px;
+    cursor: pointer;
+}

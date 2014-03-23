@@ -1,0 +1,197 @@
+*{
+	margin:0;
+	padding:0;	
+	outline:0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body{
+	font-family:tahoma,Calibri,Verdana,Geneva,sans-serif;
+	color: #000000;
+	font-size: 12px;
+}
+
+.fright{
+	float:right;
+}
+
+.fleft{
+	float:left;
+}
+
+.clearfix:before,.clearfix:after {  
+    content: " ";  
+    display: table;  
+}
+
+.clearfix:after {  
+    clear: both;  
+}
+
+.clearfix {  
+    *zoom: 1;  
+} 
+
+a{
+	outline:0;
+	text-decoration:none;
+}
+
+a:hover{
+	cursor:pointer;
+}
+
+ul{
+	list-style:none;
+}
+
+input, select{
+	vertical-align:middle;
+}
+
+.marginTop10{
+	margin-top:10px;
+}
+
+.marginBottom10{
+	margin-bottom:10px;
+}
+
+.marginTop80{
+	margin-top:80px;
+}
+
+/*-- font face --*/
+@font-face {
+    font-family: 'UTM Seagull';
+    src: url('fonts/utmseagull.eot');
+    src: url('fonts/utmseagull.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmseagull.woff') format('woff'),
+         url('fonts/utmseagull.ttf') format('truetype'),
+         url('fonts/utmseagull.svg#utmseagull') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'UTM Aircona';
+    src: url('fonts/utmaircona.eot');
+    src: url('fonts/utmaircona.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmaircona.woff') format('woff'),
+         url('fonts/utmaircona.ttf') format('truetype'),
+         url('fonts/utmaircona.svg#utmaircona') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'UTM Akashi';
+    src: url('fonts/utmakashi.eot');
+    src: url('fonts/utmakashi.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmakashi.woff') format('woff'),
+         url('fonts/utmakashi.ttf') format('truetype'),
+         url('fonts/utmakashi.svg#utmakashi') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'UTM American Sans';
+    src: url('fonts/utmamericansans.eot');
+    src: url('fonts/utmamericansans.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmamericansans.woff') format('woff'),
+         url('fonts/utmamericansans.ttf') format('truetype'),
+         url('fonts/utmamericansans.svg#utmamericansans') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'UTM Amerika Sans';
+    src: url('fonts/utmamerikasans.eot');
+    src: url('fonts/utmamerikasans.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmamerikasans.woff') format('woff'),
+         url('fonts/utmamerikasans.ttf') format('truetype'),
+         url('fonts/utmamerikasans.svg#utmamerikasans') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'UTM Avo';
+    src: url('fonts/utmavo.eot');
+    src: url('fonts/utmavo.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmavo.woff') format('woff'),
+         url('fonts/utmavo.ttf') format('truetype'),
+         url('fonts/utmavo.svg#utmavo') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'UTM Colossalis';
+    src: url('fonts/utmcolossalis.eot');
+    src: url('fonts/utmcolossalis.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmcolossalis.woff') format('woff'),
+         url('fonts/utmcolossalis.ttf') format('truetype'),
+         url('fonts/utmcolossalis.svg#utmcolossalis') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'UTM Swashes';
+    src: url('fonts/utmswashes.eot');
+    src: url('fonts/utmswashes.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmswashes.woff') format('woff'),
+         url('fonts/utmswashes.ttf') format('truetype'),
+         url('fonts/utmswashes.svg#utmcolossalis') format('svg');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'UTM Nokia Standard';
+    src: url('fonts/utmnokiastandard.eot');
+    src: url('fonts/utmnokiastandard.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmnokiastandard.woff') format('woff'),
+         url('fonts/utmnokiastandard.ttf') format('truetype'),
+         url('fonts/utmnokiastandard.svg#utmnokiastandard') format('svg');
+    font-weight: normal;
+}
+
+font-face {
+    font-family: 'UTM Aptima';
+    src: url('fonts/UTM Aptima.eot');
+    src: url('fonts/UTM Aptima.eot?#iefix') format('embedded-opentype'),
+         url('fonts/UTM Aptima.woff') format('woff'),
+         url('fonts/UTM Aptima.ttf') format('truetype'),
+         url('fonts/UTM Aptima.svg#UTM Aptima') format('svg');
+    font-weight: normal;
+}
+
+font-face {
+    font-family: 'UTM Androgyne';
+    src: url('fonts/utmandrogyne.eot');
+    src: url('fonts/utmandrogyne.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmandrogyne.woff') format('woff'),
+         url('fonts/utmandrogyne.ttf') format('truetype'),
+         url('fonts/utmandrogyne.svg#utmandrogyne') format('svg');
+    font-weight: normal;
+}
+
+font-face {
+    font-family: 'UTM Alexander';
+    src: url('fonts/utmalexander.eot');
+    src: url('fonts/utmalexander.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmalexander.woff') format('woff'),
+         url('fonts/utmalexander.ttf') format('truetype'),
+         url('fonts/utmalexander.svg#utmalexander') format('svg');
+    font-weight: normal;
+}
+
+font-face {
+    font-family: 'UTM Fire House';
+    src: url('fonts/utmfirehouse.eot');
+    src: url('fonts/utmfirehouse.eot?#iefix') format('embedded-opentype'),
+         url('fonts/utmfirehouse.woff') format('woff'),
+         url('fonts/utmfirehouse.ttf') format('truetype'),
+         url('fonts/utmfirehouse.svg#utmfirehouse') format('svg');
+    font-weight: normal;
+}
+

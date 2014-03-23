@@ -1,0 +1,224 @@
+2014/03/05 22:00:14 [error] [exception.EMongoException] exception 'EMongoException' with message 'EMongoDB failed to open connection: connecting to mongodb://localhost:27017 failed: Unknown error' in E:\Profiles\SmallOT\airbooking\web\source\backend\protected\extensions\ymds\EMongoDB.php:152
+Stack trace:
+#0 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\extensions\ymds\EMongoDB.php(181): EMongoDB->getConnection()
+#1 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\extensions\ymds\EMongoDocument.php(166): EMongoDB->getDbInstance()
+#2 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\extensions\ymds\EMongoDocument.php(191): EMongoDocument->getDb()
+#3 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\extensions\ymds\EMongoDocument.php(390): EMongoDocument->getCollection()
+#4 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\extensions\ymds\EMongoDocument.php(97): EMongoDocument->init()
+#5 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\shop\documents\ActionLog.php(42): EMongoDocument->__construct()
+#6 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\user\controllers\AuthController.php(25): ActionLog::addAction('LOGIN', '', '')
+#7 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#8 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('login')
+#12 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/auth/login')
+#13 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 E:\Profiles\SmallOT\airbooking\web\admin\index.php(10): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/index.php/user/auth/login
+HTTP_REFERER=http://localhost.airbooking.com/admin/index.php/user/auth/login
+---
+2014/03/05 22:01:11 [error] [exception.CException] exception 'CException' with message 'CAssetManager.basePath "E:\Profiles\SmallOT\airbooking\web\config/../www/backend/assets/" không hợp lệ. Hãy chắc rằng thư mục này có tồn tại và được phép ghi bởi Web server.' in E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CAssetManager.php:138
+Stack trace:
+#0 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\base\CComponent.php(152): CAssetManager->setBasePath('E:\Profiles\Sma...')
+#1 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\YiiBase.php(220): CComponent->__set('basePath', 'E:\Profiles\Sma...')
+#2 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#3 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(193): CModule->getComponent('assetManager')
+#4 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CClientScript.php(510): CWebApplication->getAssetManager()
+#5 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CClientScript.php(547): CClientScript->getCoreScriptUrl()
+#6 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CClientScript.php(348): CClientScript->getPackageBaseUrl('jquery')
+#7 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CClientScript.php(208): CClientScript->renderCoreScripts()
+#8 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(351): CClientScript->render('<!DOCTYPE html>...')
+#9 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(788): CController->processOutput('<!DOCTYPE html>...')
+#10 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\controllers\SiteController.php(32): CController->render('index')
+#11 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#12 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('')
+#16 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#17 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 E:\Profiles\SmallOT\airbooking\web\admin\index.php(10): CApplication->run()
+#19 {main}
+REQUEST_URI=/admin/index.php
+HTTP_REFERER=http://localhost.airbooking.com/admin/index.php/user/auth/login
+---
+2014/03/05 22:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "shop/brand".' in E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/brand')
+#1 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\Profiles\SmallOT\airbooking\web\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/index.php/shop/brand
+HTTP_REFERER=http://localhost.airbooking.com/admin/
+---
+2014/03/06 08:39:02 [error] [php] include(ShopEmployee.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\db\ar\CActiveRecord.php(395): spl_autoload_call()
+#1 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\db\ar\CActiveFinder.php(182): model()
+#2 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\db\ar\CActiveFinder.php(230): CActiveFinder->getModel()
+#3 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\db\ar\CActiveFinder.php(48): CActiveFinder->buildJoinTree()
+#4 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\db\ar\CActiveRecord.php(909): CActiveFinder->__construct()
+#5 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\db\ar\CActiveRecord.php(280): SystemUser->getActiveFinder()
+#6 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\db\ar\CActiveRecord.php(181): SystemUser->getRelated()
+#7 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\user\components\UserIdentity.php(43): SystemUser->__isset()
+#8 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\user\models\LoginForm.php(52): UserIdentity->authenticate()
+#9 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\validators\CInlineValidator.php(42): LoginForm->authenticate()
+#10 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\validators\CValidator.php(213): CInlineValidator->validateAttribute()
+#11 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\base\CModel.php(159): CInlineValidator->validate()
+#12 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\user\controllers\AuthController.php(23): LoginForm->validate()
+#13 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#14 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#15 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(286): AuthController->runAction()
+#16 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#17 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(282): AuthController->run()
+#18 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 E:\Profiles\SmallOT\airbooking\web\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/index.php/user/auth/login
+in E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\user\components\UserIdentity.php (43)
+in E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\user\models\LoginForm.php (52)
+in E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\user\controllers\AuthController.php (23)
+2014/03/06 08:40:25 [error] [php] include(ActionLog.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\user\controllers\AuthController.php(25): spl_autoload_call()
+#1 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#2 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(286): AuthController->runAction()
+#4 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#5 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(282): AuthController->run()
+#6 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 E:\Profiles\SmallOT\airbooking\web\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/index.php/user/auth/login
+in E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\user\controllers\AuthController.php (25)
+in E:\Profiles\SmallOT\airbooking\web\admin\index.php (10)
+2014/03/06 08:40:42 [error] [php] include(ActionLog.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\YiiBase.php:427)
+Stack trace:
+#0 E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\user\controllers\AuthController.php(25): spl_autoload_call()
+#1 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\actions\CInlineAction.php(49): AuthController->actionLogin()
+#2 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(286): AuthController->runAction()
+#4 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CController.php(265): AuthController->runActionWithFilters()
+#5 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(282): AuthController->run()
+#6 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\Profiles\SmallOT\airbooking\web\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 E:\Profiles\SmallOT\airbooking\web\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/index.php/user/auth/login
+in E:\Profiles\SmallOT\airbooking\web\source\backend\protected\modules\user\controllers\AuthController.php (25)
+in E:\Profiles\SmallOT\airbooking\web\admin\index.php (10)
+2014/03/21 00:39:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Không thể giải quyết yêu cầu "shop/customer/retail".' in E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('shop/customer/r...')
+#1 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\Profiles\SmallOT\appsmini\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/index.php/shop/customer/retail
+HTTP_REFERER=http://localhost.appsmini.com/admin/
+---
+2014/03/22 07:50:10 [error] [php] Undefined offset: 2 (E:\Profiles\SmallOT\appsmini\source\backend\protected\components\Util.php:644)
+Stack trace:
+#0 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(286): QaEventController->runAction()
+#2 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(265): QaEventController->runActionWithFilters()
+#3 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(282): QaEventController->run()
+#4 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 E:\Profiles\SmallOT\appsmini\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/index.php/apps/qaEvent/create
+in E:\Profiles\SmallOT\appsmini\source\backend\protected\components\Util.php (644)
+in E:\Profiles\SmallOT\appsmini\source\backend\protected\modules\apps\controllers\QaEventController.php (30)
+in E:\Profiles\SmallOT\appsmini\admin\index.php (10)
+2014/03/22 08:01:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php:483
+Stack trace:
+#0 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('apps/qaQuestion...')
+#3 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 E:\Profiles\SmallOT\appsmini\admin\index.php(10): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/index.php/apps/qaQuestion/admin
+HTTP_REFERER=http://localhost.appsmini.com/admin/index.php/apps/qaEvent
+---
+2014/03/22 16:01:53 [error] [exception.CException] exception 'CException' with message 'QaQuestionController cannot find the requested view "/item_answer".' in E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php:878
+Stack trace:
+#0 E:\Profiles\SmallOT\appsmini\source\backend\protected\modules\apps\views\qaQuestion\_form.php(60): CController->renderPartial('/item_answer', Array)
+#1 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CBaseController.php(126): require('E:\Profiles\Sma...')
+#2 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\Profiles\Sma...', Array, true)
+#3 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\Profiles\Sma...', Array, true)
+#4 E:\Profiles\SmallOT\appsmini\source\backend\protected\modules\apps\views\qaQuestion\update.php(15): CController->renderPartial('_form', Array)
+#5 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CBaseController.php(126): require('E:\Profiles\Sma...')
+#6 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\Profiles\Sma...', Array, true)
+#7 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\Profiles\Sma...', Array, true)
+#8 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#9 E:\Profiles\SmallOT\appsmini\source\backend\protected\modules\apps\controllers\QaQuestionController.php(60): CController->render('update', Array)
+#10 [internal function]: QaQuestionController->actionUpdate('1')
+#11 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(QaQuestionController), Array)
+#12 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(QaQuestionController), Object(ReflectionMethod), Array)
+#13 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#14 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#15 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#16 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#17 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('apps/qaQuestion...')
+#18 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 E:\Profiles\SmallOT\appsmini\admin\index.php(10): CApplication->run()
+#20 {main}
+REQUEST_URI=/admin/index.php/apps/qaQuestion/update?id=1
+HTTP_REFERER=http://localhost.appsmini.com/admin/index.php/apps/qaQuestion
+---
+2014/03/22 16:01:59 [error] [exception.CException] exception 'CException' with message 'Property "QaAnswer.title" is not defined.' in E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\base\CComponent.php:130
+Stack trace:
+#0 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\db\ar\CActiveRecord.php(145): CComponent->__get('title')
+#1 E:\Profiles\SmallOT\appsmini\source\backend\protected\modules\apps\views\qaQuestion\item_answer.php(7): CActiveRecord->__get('title')
+#2 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CBaseController.php(126): require('E:\Profiles\Sma...')
+#3 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\Profiles\Sma...', Array, true)
+#4 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\Profiles\Sma...', Array, true)
+#5 E:\Profiles\SmallOT\appsmini\source\backend\protected\modules\apps\views\qaQuestion\_form.php(60): CController->renderPartial('item_answer', Array)
+#6 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CBaseController.php(126): require('E:\Profiles\Sma...')
+#7 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\Profiles\Sma...', Array, true)
+#8 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\Profiles\Sma...', Array, true)
+#9 E:\Profiles\SmallOT\appsmini\source\backend\protected\modules\apps\views\qaQuestion\update.php(15): CController->renderPartial('_form', Array)
+#10 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CBaseController.php(126): require('E:\Profiles\Sma...')
+#11 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('E:\Profiles\Sma...', Array, true)
+#12 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(869): CBaseController->renderFile('E:\Profiles\Sma...', Array, true)
+#13 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(782): CController->renderPartial('update', Array, true)
+#14 E:\Profiles\SmallOT\appsmini\source\backend\protected\modules\apps\controllers\QaQuestionController.php(60): CController->render('update', Array)
+#15 [internal function]: QaQuestionController->actionUpdate('1')
+#16 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(QaQuestionController), Array)
+#17 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(QaQuestionController), Object(ReflectionMethod), Array)
+#18 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#19 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#20 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(282): CController->run('update')
+#22 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('apps/qaQuestion...')
+#23 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#24 E:\Profiles\SmallOT\appsmini\admin\index.php(10): CApplication->run()
+#25 {main}
+REQUEST_URI=/admin/index.php/apps/qaQuestion/update?id=1
+HTTP_REFERER=http://localhost.appsmini.com/admin/index.php/apps/qaQuestion
+---
+2014/03/22 16:06:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "tracnghiem/question/addMoreAnswer".' in E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('tracnghiem/ques...')
+#1 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 E:\Profiles\SmallOT\appsmini\admin\index.php(10): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/index.php/tracnghiem/question/addMoreAnswer
+HTTP_REFERER=http://localhost.appsmini.com/admin/index.php/apps/qaQuestion/update?id=1
+---
+2014/03/22 19:20:08 [error] [php] Trying to get property of non-object (E:\Profiles\SmallOT\appsmini\source\backend\protected\modules\apps\controllers\QaQuestionController.php:141)
+Stack trace:
+#0 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(286): QaQuestionController->runAction()
+#4 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CController.php(265): QaQuestionController->runActionWithFilters()
+#5 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(282): QaQuestionController->run()
+#6 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 E:\Profiles\SmallOT\appsmini\source\vendors\yiisoft\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 E:\Profiles\SmallOT\appsmini\admin\index.php(10): CWebApplication->run()
+REQUEST_URI=/admin/index.php/apps/qaQuestion/update?id=1
+in E:\Profiles\SmallOT\appsmini\source\backend\protected\modules\apps\controllers\QaQuestionController.php (141)
+in E:\Profiles\SmallOT\appsmini\source\backend\protected\modules\apps\controllers\QaQuestionController.php (55)
+in E:\Profiles\SmallOT\appsmini\admin\index.php (10)

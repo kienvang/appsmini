@@ -1,0 +1,1001 @@
+Array
+(
+    [depart] => Array
+        (
+            [0] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-20T06:00:00+0700
+                            [originCode] => SGN
+                            [destinationCode] => HAN
+                            [flightCode] => VJ8660
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-20T08:05:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 1,B_Eco,O
+                                    [classCode] => B
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1140000
+                                            [fareTaxs] => 114000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1402000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1402000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-20T07:30:00+0700
+                            [originCode] => SGN
+                            [destinationCode] => HAN
+                            [flightCode] => VJ8662
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-20T09:35:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 2,B_Eco,O
+                                    [classCode] => B
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1140000
+                                            [fareTaxs] => 114000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1402000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1402000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-20T11:15:00+0700
+                            [originCode] => SGN
+                            [destinationCode] => HAN
+                            [flightCode] => VJ8666
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-20T13:20:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 3,B_Eco,O
+                                    [classCode] => B
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1140000
+                                            [fareTaxs] => 114000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1402000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1402000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-20T12:50:00+0700
+                            [originCode] => SGN
+                            [destinationCode] => HAN
+                            [flightCode] => VJ8668
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-20T14:55:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 4,B_Eco,O
+                                    [classCode] => B
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1140000
+                                            [fareTaxs] => 114000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1402000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1402000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-20T14:50:00+0700
+                            [originCode] => SGN
+                            [destinationCode] => HAN
+                            [flightCode] => VJ8670
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-20T16:55:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 5,B_Eco,O
+                                    [classCode] => B
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1140000
+                                            [fareTaxs] => 114000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1402000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1402000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-20T16:35:00+0700
+                            [originCode] => SGN
+                            [destinationCode] => HAN
+                            [flightCode] => VJ8672
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-20T18:40:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 6,B_Eco,O
+                                    [classCode] => B
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1140000
+                                            [fareTaxs] => 114000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1402000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1402000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-20T20:10:00+0700
+                            [originCode] => SGN
+                            [destinationCode] => HAN
+                            [flightCode] => VJ8674
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-20T22:15:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 7,B_Eco,O
+                                    [classCode] => B
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1140000
+                                            [fareTaxs] => 114000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1402000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1402000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-20T21:00:00+0700
+                            [originCode] => SGN
+                            [destinationCode] => HAN
+                            [flightCode] => VJ8676
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-20T23:05:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 8,I_Eco,O
+                                    [classCode] => I
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1030000
+                                            [fareTaxs] => 103000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1281000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1281000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-20T21:20:00+0700
+                            [originCode] => SGN
+                            [destinationCode] => HAN
+                            [flightCode] => VJ8680
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-20T23:25:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 9,I_Eco,O
+                                    [classCode] => I
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1030000
+                                            [fareTaxs] => 103000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1281000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1281000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-20T22:50:00+0700
+                            [originCode] => SGN
+                            [destinationCode] => HAN
+                            [flightCode] => VJ8678
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-20T00:55:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 10,J_Eco,O
+                                    [classCode] => J
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 900000
+                                            [fareTaxs] => 90000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1138000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1138000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [destination] => Array
+        (
+            [0] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T06:20:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8661
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T08:25:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 1,H_Eco,O
+                                    [classCode] => H
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1260000
+                                            [fareTaxs] => 126000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1534000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1534000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T07:00:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8683
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T09:05:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 2,I_Eco,O
+                                    [classCode] => I
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1030000
+                                            [fareTaxs] => 103000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1281000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1281000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T08:35:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8663
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T10:40:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 3,H_Eco,O
+                                    [classCode] => H
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1260000
+                                            [fareTaxs] => 126000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1534000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1534000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T10:10:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8665
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T12:15:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 4,H_Eco,O
+                                    [classCode] => H
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1260000
+                                            [fareTaxs] => 126000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1534000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1534000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T11:40:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8667
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T13:45:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 5,H_Eco,O
+                                    [classCode] => H
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1260000
+                                            [fareTaxs] => 126000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1534000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1534000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T13:55:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8669
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T16:00:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 6,H_Eco,O
+                                    [classCode] => H
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1260000
+                                            [fareTaxs] => 126000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1534000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1534000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T15:40:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8681
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T17:45:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 7,H_Eco,O
+                                    [classCode] => H
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1260000
+                                            [fareTaxs] => 126000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1534000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1534000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T17:30:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8671
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T19:35:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 8,B_Eco,O
+                                    [classCode] => B
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1140000
+                                            [fareTaxs] => 114000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1402000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1402000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [8] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T19:15:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8673
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T21:20:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 9,B_Eco,O
+                                    [classCode] => B
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1140000
+                                            [fareTaxs] => 114000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1402000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1402000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [9] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T20:10:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8675
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T22:15:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 10,B_Eco,O
+                                    [classCode] => B
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1140000
+                                            [fareTaxs] => 114000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1402000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1402000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [10] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T21:30:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8677
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T23:35:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 11,B_Eco,O
+                                    [classCode] => B
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1140000
+                                            [fareTaxs] => 114000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1402000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1402000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [11] => Array
+                (
+                    [fareInfo] => Array
+                        (
+                            [departureDate] => 2014-03-22T22:50:00+0700
+                            [originCode] => HAN
+                            [destinationCode] => SGN
+                            [flightCode] => VJ8679
+                            [vendor] => VJ
+                            [arrivalDate] => 2014-03-22T00:55:00+0700
+                        )
+
+                    [priceOptions] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [reference] => 12,I_Eco,O
+                                    [classCode] => I
+                                    [className] => Eco
+                                    [airPriceInfo] => Array
+                                        (
+                                            [fare] => 1030000
+                                            [fareTaxs] => 103000
+                                            [charges] => 140000
+                                            [adminFee] => 88000
+                                            [airportFee] => 60000
+                                            [total] => 1281000
+                                        )
+
+                                    [priceDetail] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [passengerType] => ADT
+                                                    [price] => 1281000
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

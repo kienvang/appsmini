@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'MuseoForDellVT'; src: url('fonts/MuseoForDellVT300_22.otf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'MuseoForDellVT'; src: url('fonts/MuseoForDellVT500_22.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'MuseoForDellVT'; src: url('fonts/MuseoForDellVT700_22.otf');
+    font-weight: 700;
+}

@@ -1,0 +1,208 @@
+form img{
+	vertical-align:text-top;
+}
+
+form ul li{
+	margin-bottom:18px;
+	position:relative;
+}
+
+form p, .popup p{
+	padding-top:14px;
+	text-align:center;
+	color:#F3DDBE;
+	line-height:1.5em;
+}
+
+.popup-notice{
+	font-weight:bold;
+}
+
+form a, .popup a{
+    color: #FE9500;
+}
+
+.popup-notice a:hover{
+	text-decoration:underline;
+}
+
+.popup{
+	position: relative;
+	width: 538px;
+}
+
+.popup-top{
+	background: url(images/pop-top.png) no-repeat left top;
+	display: block;
+    height: 74px;
+    width: 538px;
+}
+
+.popup-bottom{
+	background:url(images/maintab-bg.png) repeat-y left top;
+	padding:0 20px 20px; 
+}
+
+.popup-top h2{
+	display: block;
+    height: 41px;
+	margin: 0 auto;
+    text-indent: -9999em;
+}
+
+.popup-login h2{
+	background:url(images/text.png) no-repeat 0 -726px;
+	width:141px;
+}
+
+.popup-register h2{
+	background:url(images/text.png) no-repeat 0 -767px;
+	width:108px;
+}
+
+.popup-notice h2{
+	background:url(images/text.png) no-repeat 0 -808px;
+	width:141px;
+}
+
+.btn-close{
+	cursor: pointer;
+    display: block;
+    height: 40px;
+    position: absolute;
+    right: 9px;
+    text-indent: -9999em;
+    top: 0;
+    width: 40px;	
+}
+
+.errorMessage {
+    color: #AF0301;
+   	font-size:11px;
+	position:absolute;
+	bottom:-15px;
+	left:162px;
+}
+
+#login-form label, #register-form label, #server-form label{
+	color: #F3DDBE;
+    float:left;
+	margin-right: 12px;
+    margin-top: 7px;
+    min-width: 150px;
+    text-align: right;
+	font-weight:bold;
+}
+
+#login-form input.input-text, #register-form input.input-text{
+	background: none repeat scroll 0 0 #000000;
+    border: 1px solid #853407;
+    border-radius: 3px;
+    color: #D57E44;
+    padding: 6px 4px;
+    width: 285px;
+	float:left;
+}
+
+#server-form select{
+	background: none repeat scroll 0 0 #000000;
+    border: 1px solid #853407;
+    border-radius: 3px;
+    color: #D57E44;
+    padding: 6px 4px;
+    width: 285px;
+	float:left;
+}
+
+.btn-pw {
+    background: url(images/arrow-orange.png) no-repeat left center;
+    color: #EA8901;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 162px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+#btn-login{
+    background: url(images/play-btn.jpg) no-repeat 0 0;
+    border: 0 none;
+    cursor: pointer;
+    height: 46px;
+    padding: 0;
+    text-indent: -9999em;
+    width: 125px;
+}
+
+#btn-login:hover{
+    background: url(images/play-btn.jpg) no-repeat 0 -46px;
+}
+
+#btn-register{
+    background: url(images/play-btn.jpg) no-repeat 0 -92px;
+    border: 0 none;
+    cursor: pointer;
+    height: 46px;
+    padding: 0;
+    text-indent: -9999em;
+    width: 125px;
+}
+
+#btn-register:hover{
+    background: url(images/play-btn.jpg) no-repeat 0 -138px;
+}
+
+#btn-submit{
+    background: url(images/play-btn.jpg) no-repeat 0 -184px;
+    border: 0 none;
+    cursor: pointer;
+    height: 46px;
+    padding: 0;
+    text-indent: -9999em;
+    width: 125px;
+}
+
+#btn-submit:hover{
+    background: url(images/play-btn.jpg) no-repeat 0 -230px;
+}
+
+.captcha img{
+    background: #FFFFFF;
+    float: left;
+}
+
+.captcha a{
+    background: url(images/ico-ref.png) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 8px;
+    text-indent: -9999em;
+    width: 14px;
+}
+
+#register-form input.input-text.input-small{
+	width:175px;
+}
+
+#register-form .policy label{
+	font-weight:normal;
+}
+
+#register-form .policy input[type="checkbox"] {
+    margin-right: 13px;
+    margin-top: 9px;
+	margin-left:110px;
+    float: left;
+}
+
+.loading{
+	background: url(images/ajax-loader.gif) no-repeat center center;
+}
+
+#btn_l, #btn_r, #btn_s{
+	width:125px;
+	margin-left:162px;
+}

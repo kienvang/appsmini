@@ -1,0 +1,114 @@
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body, button, input, select, textarea { color: #222; font-family: Tahoma, Arial, sans-serif; }
+
+a { color: #00e; }
+a:hover { color: #06e; }
+a:focus, a:hover, a:active { outline: 0; }
+
+abbr[title] { border-bottom: dotted 1px; }
+b, strong { font-weight: bold; }
+blockquote { margin: 1em 40px; }
+dfn { font-style: italic; }
+hr { border: 0; border-top: #ccc solid 1px; display: block; height: 1px; margin: 1em 0; padding: 0; }
+ins { background: #ff9; color: #000; text-decoration: none; }
+mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
+pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+q { quotes: none; }
+q:before, q:after { content: ""; content: none; }
+small { font-size: 85%; }
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+h1, h2, h3, h4, h5, h6, h7 {margin:0;padding:0;font-weight:normal;}
+
+ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+dd { margin: 0 0 0 40px; }
+nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+
+img { border: 0; vertical-align: top; -ms-interpolation-mode: bicubic; }
+
+svg:not(:root) { overflow: hidden; }
+
+figure { margin: 0; display:block; }
+
+form { margin: 0; }
+fieldset { border: 0; margin: 0; padding: 0; }
+label { cursor: pointer; }
+legend { border: 0; *margin-left: -7px; padding: 0; }
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input { line-height: normal; *overflow: visible; }
+table button, table input { *overflow: auto; }
+button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
+input[type="text"] { -webkit-appearance: none; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+input[type="search"], input[type="email"], input[type="text"] { font-family:Arial, Helvetica, sans-serif;}
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+textarea { overflow: auto; vertical-align: top; resize: vertical; }
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+td { vertical-align: top; }
+
+.ir { background-color: transparent; background-repeat: no-repeat; border: 0; direction: ltr; display: block; overflow: hidden; text-align: left; text-indent: -999em; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+* { text-shadow: none !important; filter: none !important; -ms-filter: none !important; }
+a, a:visited { text-decoration: underline; color:#00a3e7!important}
+a[href]:after { content: " (" attr(href) ")"; }
+abbr[title]:after { content: " (" attr(title) ")"; }
+.ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
+pre, blockquote {content: "» "!important; page-break-inside: avoid; }
+thead { display: table-header-group; }
+tr, img { page-break-inside: avoid; }
+img { max-width: 100% !important; }
+@page { margin: 0.5cm!important; }
+p, h2, h3 { orphans: 3; widows: 3; }
+h2, h3 { page-break-after: avoid; }
+li {content: "» "}
+
+body { font-size: 12px; margin: 0; letter-spacing: -1px}
+.bold{font-weight:bold}
+.text-right{text-align:right}
+.step-header-branch{font-size:10px}
+.step-header-branch img{display:block; float:left; width:96px; margin-right:15px}
+.step-header-branch h3{font:bold 18px/22px Tahoma, Arial, sans-serif; text-transform: uppercase}
+.step-header-branch span{font-weight:bold; font-size:9px}
+.step-header-retail{text-align:center; margin:6px}
+.step-header-retail h3{font:bold 15px/20px Tahoma, Arial, sans-serif}
+.step-content .table-main{width:100%; margin:5px 0}
+.step-content .table-main, .step-content .table-main th, .step-content .table-main td{border:1px solid black;padding:3px 5px}
+.step-content .table-main th{font-size:10px}
+.step-content .span12{float:none !important; clear:both}
+.step-content .total .span1, .step-content .total .span2.text-right{width:120px; text-align:right}
+.step-content .total .span3{font-weight:bold; font-size:10px}
+.step-header-partner{font-size:11px}
+.step-header-partner .span4{margin:0 0 5px 10px; float:left}
+.step-header-partner span{display:inline-table; line-height:18px}
+.money-string, .sign-customer, .sign-cashier, .sign-saler{font-weight:bold; text-align:center}
+.sign-customer, .sign-cashier, .sign-saler{float:left; width:31%}
+.upper{text-transform:uppercase}
+.money-string{padding:5px 10px; text-align:left; font-size:11px}
+.sign-customer .upper, .sign-saler .upper, .sign-cashier .upper{margin:50px 0 0; font-size:10px}
+.sign-customer span, .sign-saler span, .sign-cashier span{font-size:10px}
+
+.step-header-customer{font-size:11px}
+.step-header-customer .span4{margin:0 15px 5px 0; float:left}
+.step-header-customer span{display:inline-table; line-height:18px}
+.customerCash input{display: none}
+.span6.row-fluid{float:left}
+.totalDetail{float:right; margin-right:10px}
+.printHide{display: none!important;}
+.delivery{padding-top:10px; display: block}
+.delivery .span2{float:left; margin-right:10px}
+.delivery .span10{float:left; font-weight:bold}
